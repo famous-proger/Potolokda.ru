@@ -1,0 +1,33 @@
+@media (max-width: 1300px){
+
+  .owl-carousel-3 {
+    height: 298px;
+    width: 725px;
+    margin-top: 111px;
+    padding-bottom: 125px;
+  }
+
+  .main__certificates {
+    height: initial;
+    min-height: 567px;
+  }
+
+}
+
+
+@media (max-width: 955px){
+
+  .owl-carousel-3 {
+    width: 200px;
+  }
+
+}
+
+
+@media (max-width: 561px){
+
+  .main__certificates {
+    display: none;
+  }
+
+}

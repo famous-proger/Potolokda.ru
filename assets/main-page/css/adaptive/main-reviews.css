@@ -1,0 +1,116 @@
+@media (max-width: 1300px){
+
+  .owl-carousel-2 .owl-item > div:nth-of-type(1) {
+    height: 290px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 45px 40px;
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(207, 207, 207, 0.5);
+  }
+
+  .owl-carousel-2 {
+    width: 725px;
+  }
+
+  .owl-carousel-2 > .owl-stage-outer {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 895px){
+
+  .owl-carousel-2 {
+    width: 340px;
+  }
+}
+
+@media (max-width: 730px){
+
+  .main__reviews > h1 {
+    font: 30px / 26px "Montserrat Bold";
+  }
+
+}
+
+@media (max-width: 520px){
+
+  .owl-carousel-2 {
+    width: 95vw;
+  }
+
+  .owl-carousel-2 .owl-stage {
+    padding-left:0px !important;
+  }
+
+  .main__reviews > h1 {
+    padding: 0 25px;
+    text-align: center;
+  }
+
+  .owl-carousel-2 .owl-prev {
+    display: none;
+  }
+
+  .owl-carousel-2 .owl-next {
+    right: -20px;
+  }
+
+
+}
+
+@media (max-width: 380px){
+
+  .main__single-review > section:nth-of-type(1) > p {
+    font: 12px / 26px "Montserrat Bold";
+  }
+
+  .main__single-review > section:nth-of-type(1) > time {
+    font: 12px / 26px "Montserrat";
+  }
+
+  .main__single-review > section:nth-of-type(2) > p {
+    font: 12px / 18px "Montserrat";
+    margin-top: 7px;
+  }
+
+  .owl-carousel-2 .owl-item > div:nth-of-type(1) {
+    height: 260px;
+    min-height: 190px;
+    padding: 20px 26px;
+  }
+
+  .main__reviews > button {
+    margin-top: 25px;
+    width: 205px;
+    height: 45px;
+  }
+
+  .owl-carousel-2 .owl-next {
+    top: 135px;
+    right: -5px;
+  }
+
+  .owl-carousel-2 .owl-next img {
+    width: 13px;
+  }
+
+}
+
+@media (max-width: 330px){
+
+  .main__reviews > h1 {
+    margin-top: 21px;
+    font: 25px / 28px "Montserrat Bold";
+  }
+
+  .owl-carousel-2 {
+    margin-top: 6px;
+  }
+
+  .main__reviews {
+    height: 485px;
+  }
+
+}

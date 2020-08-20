@@ -1,0 +1,41 @@
+.main__certificates {
+  width: 100%;
+  height: 567px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__certificates > h1 {
+  margin-top: 97px;
+  font: 48px / 24px "Montserrat Bold";
+}
+
+.owl-carousel-3 {
+  height: 298px;
+  width: 1110px;
+  margin-top: 54px;
+  margin-right: 1px;
+}
+
+.owl-carousel-3 .owl-item > div:nth-of-type(1) {
+  height: 300px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(207, 207, 207, 0.5);
+}
+
+.owl-carousel-3 .owl-prev {
+  position: absolute;
+  top: 132px;
+  left: -71px;
+}
+
+.owl-carousel-3 .owl-next {
+  position: absolute;
+  top: 131px;
+  right: -73px;
+}
+
+.fancybox-caption__body {
+  font: 20px / 24px "Montserrat Bold";
+}

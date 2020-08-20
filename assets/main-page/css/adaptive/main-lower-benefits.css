@@ -1,0 +1,233 @@
+@media (max-width: 1190px){
+  .main__lower-benefits__wrapper {
+    justify-content: space-around;
+  }
+
+  .main__lower-benefits__wrapper > section {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .main__lower-benefits {
+    height: initial;
+    min-height: 930px;
+  }
+
+  .main__lower-benefits__wrapper {
+    height: initial;
+  }
+
+}
+
+@media (max-width: 800px){
+
+  .main__lower-benefits {
+    width: 100%;
+    height: initial;
+    min-height: initial;
+  }
+
+  .main__lower-benefits__wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 1174px;
+    margin-top: -72px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .main__lower-benefits__wrapper section {
+    width: 352px;
+    height: 423px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 47px 54px;
+    margin-left: 240px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(207, 207, 207, 0.5);
+    white-space: nowrap;
+  }
+
+  .main__lower-benefits__wrapper > div > div > div h2 {
+    font: 24px / 27px "Montserrat Bold";
+  }
+
+  .main__lower-benefits__wrapper > div > div > div p {
+    font: 15px / 22px "Montserrat";
+    margin-top: 11px;
+  }
+
+  .main__lower-benefits_section-1 {
+    background: url(../../../../images/main-page/discount_bg_1.png) bottom left / auto no-repeat;
+  }
+
+  .main__lower-benefits_section-2 {
+    background: url(../../../../images/main-page/discount_bg_2.png) bottom left / auto no-repeat;
+  }
+
+  .main__lower-benefits_section-3 {
+    background: url(../../../../images/main-page/discount_bg_3.png) bottom left / auto no-repeat;
+  }
+
+  .main__lower-benefits_section-4 {
+    background: url(../../../../images/main-page/discount_bg_4.png) bottom left / auto no-repeat;
+  }
+
+  .main__lower-benefits_section-5 {
+    background: url(../../../../images/main-page/discount_bg_5.png) bottom left / auto no-repeat;
+  }
+
+  .main__lower-benefits_section-6 {
+    background: url(../../../../images/main-page/discount_bg_6.png) bottom left / auto no-repeat;
+  }
+
+  .main__lower-benefits__wrapper section::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(72,141,198,1) 0%, rgba(110,80,170,1) 100%);
+  }
+
+  .main__lower-benefits__wrapper section {
+    margin-left: 0px;
+  }
+
+  .main__lower-benefits__wrapper .owl-stage {
+    padding-left:0px !important;
+  }
+
+  .main__lower-benefits__wrapper .owl-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__lower-benefits__wrapper .owl-next {
+    position: absolute;
+    top: 180px;
+    right: 55px;
+  }
+
+  .main__lower-benefits__wrapper .owl-prev {
+    position: absolute;
+    top: 180px;
+    left: 70px;
+  }
+
+}
+
+
+@media (max-width: 580px){
+
+  .main__lower-benefits__wrapper .owl-item {
+    display: block;
+    justify-content: initial;
+  }
+
+  .main__lower-benefits__wrapper section {
+    margin-left: 40px;
+  }
+
+  .main__lower-benefits__wrapper .owl-prev {
+    display: none;
+  }
+
+  .owl-item {
+    opacity:0.5!important;
+    transition: opacity 0.7s linear;
+  }
+  .active {
+    opacity:1!important;
+    transition: opacity 0.7s linear;
+  }
+
+
+}
+
+
+@media (max-width: 540px){
+
+  .main__lower-benefits__wrapper > div > div > div h2 {
+    font: 20px / 27px "Montserrat Bold";
+  }
+
+  .main__lower-benefits__wrapper > div > div > div p {
+    font: 12px / 22px "Montserrat";
+    margin-top: 11px;
+  }
+
+  .main__lower-benefits__wrapper section {
+    width: 293px;
+    height: 320px;
+    padding: 46px 42px;
+  }
+
+  .main__lower-benefits__wrapper .owl-next {
+    top: 135px;
+  }
+
+}
+
+@media (max-width: 475px){
+
+  .main__lower-benefits__wrapper section {
+    width: 80%;
+    height: 300px;
+    padding: 46px 25px;
+    min-width: 235px;
+  }
+
+  .main__lower-benefits__wrapper > div > div > div p {
+    font: 11px / 19px "Montserrat";
+  }
+
+  .main__lower-benefits__wrapper .owl-next {
+    right: 30px;
+  }
+
+}
+
+@media (max-width: 440px){
+  .main__lower-benefits__wrapper .owl-next {
+    right: 21px;
+    top: 140px;
+  }
+
+  .main__lower-benefits__wrapper .owl-next img {
+    width: 11px;
+  }
+}
+
+@media (max-width: 380px){
+
+  .main__lower-benefits__wrapper section {
+    margin-left: 17px;
+  }
+
+  .main__lower-benefits__wrapper {
+    margin-top: -85px;
+  }
+
+  .main__lower-benefits__wrapper > div > div > div h2 {
+    font: 18px / 24px "Montserrat Bold";
+  }
+
+  .main__lower-benefits__wrapper section {
+    width: 80%;
+    height: 300px;
+    padding: 24px 19px;
+    min-width: 235px;
+  }
+
+  .main__lower-benefits__wrapper > div > div > div p {
+    font: 12px / 18px "Montserrat";
+    margin-top: 0px;
+  }
+}

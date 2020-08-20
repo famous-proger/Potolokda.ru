@@ -1,0 +1,115 @@
+@media (max-width: 1170px){
+  .main__upper-benefits__wrapper > section:nth-child(1) {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  .main__upper-benefits__wrapper > section:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  .main__upper-benefits__wrapper > section:nth-child(3) {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  .main__upper-benefits__wrapper > section:nth-child(4) {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  .main__upper-benefits__wrapper > section:nth-child(5) {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+  }
+
+  .main__upper-benefits__wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 110px;
+    height: initial;
+  }
+
+  .main__upper-benefits {
+    height: initial;
+    min-height: 320px;
+    width: 100%;
+    background: #f7f7f7;
+  }
+
+
+
+}
+
+@media (max-width: 540px){
+  .main__upper-benefits__wrapper > section:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 480px){
+  .main__upper-benefits__wrapper {
+    flex-wrap: initial;
+    justify-content: initial;
+    display: grid;
+    height: calc(100% - 130px);
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .main__upper-benefits__wrapper > section:nth-child(1) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .main__upper-benefits__wrapper > section:nth-child(2) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .main__upper-benefits__wrapper > section:nth-child(3) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .main__upper-benefits__wrapper > section:nth-child(4) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .main__upper-benefits__wrapper > section:nth-child(5) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .main__upper-benefits__wrapper {
+    padding-top: 75px;
+  }
+}
+
+@media (max-width: 370px){
+  .main__upper-benefits__wrapper {
+    display: grid;
+    height: calc(100% - 130px);
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 115px 115px;
+  }
+
+  .main__upper-benefits__wrapper > section > a > p {
+    font: 13px / 15px "Montserrat Bold";
+  }
+
+  .main__upper-benefits__wrapper > section:nth-child(1),
+  .main__upper-benefits__wrapper > section:nth-child(2),
+  .main__upper-benefits__wrapper > section:nth-child(3),
+  .main__upper-benefits__wrapper > section:nth-child(4),
+  .main__upper-benefits__wrapper > section:nth-child(5){
+    margin-bottom: 0px;
+  }
+
+
+}

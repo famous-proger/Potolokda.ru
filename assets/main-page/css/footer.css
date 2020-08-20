@@ -1,0 +1,155 @@
+.footer__block {
+  width: 100vw;
+  height: 425px;
+  background: #181818;
+}
+
+.footer__block a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__navigation {
+  border-bottom: 1px solid #5e5e5e;
+}
+
+.footer__navigation-block {
+  width: 100%;
+  height: 332px;
+  display: flex;
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 35.5px 20px 0px 20px;
+  box-sizing: border-box;
+}
+
+
+.footer__column_1, .footer__column_2, .footer__column_3 {
+  list-style: square;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 30px;
+  align-self: center;
+}
+
+.footer__column_1 {
+  padding: 0px 0px 0px 87px;
+  white-space: nowrap;
+}
+
+.footer__column_2 {
+  margin: 0px 0px 0px 177px;
+  white-space: nowrap;
+}
+
+.footer__column_3 {
+  margin: 0px 0px 0px 109px;
+  white-space: nowrap;
+}
+
+.footer__column_4 {
+  width: 200px;
+  height: 130px;
+  list-style: square;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 30px;
+  align-self: center;
+  margin: 0px 0px 79px 65px;
+}
+
+.footer__column_4-cornise {
+  margin: 4px 0px 0px 0px;
+  line-height: 21px;
+}
+
+li {
+  padding-left: 3px;
+}
+
+.footer__contacts {
+  width: 100%;
+  height: 91px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__copyright-block {
+  width: 40.416666666%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.footer__copyright-text {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 20px;
+  margin: 0px 103px 2px 0px;
+}
+
+.footer__logos {
+  width: 13.489583333%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__vk-logo_block, .footer__facebook-logo_block {
+  width: 85px;
+  height: 91px;
+  border-left: 1px solid #5e5e5e;
+  margin: 1px 0px 0px 0px;
+}
+
+.footer__insta-logo_block {
+  width: 85px;
+  height: 91px;
+  border-left: 1px solid #5e5e5e;
+  border-right: 1px solid #5e5e5e;
+  margin: 1px 0px 0px 0px;
+}
+
+.footer__vk-logo {
+  margin: 35px 0px 0px 28px;
+}
+
+.footer__facebook-logo, .footer__insta-logo {
+  margin: 35px 0px 0px 33px;
+}
+
+.footer__numbers {
+  width: 46.09375%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  font-family: "Montserrat Bold";
+  font-size: 14px;
+}
+
+.footer__feedback {
+  display: flex;
+}
+
+.footer__messenger {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__viber-logo {
+  margin: 0px 0px 0px 78px;
+}
+
+.footer__whatsapp-logo {
+  margin: 0px 0px 0px 6px;
+}
+
+.footer__messenger-tel {
+  margin: 5px 0px 0px 10px;
+}
+
+.footer__tel-numbers {
+  margin: 5px 0px 0px 85px;
+}

@@ -1,0 +1,180 @@
+@media (max-width: 1160px) {
+  .main__about-us {
+    height: initial;
+    min-height: 305px;
+    padding-bottom: 60px;
+  }
+
+  .main__about-us__section-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__about-us__section-2 > div:nth-child(1) br {
+    display: none;
+  }
+
+  .main__about-us__section-2 > div:nth-child(1)  {
+    padding: 0 80px;
+  }
+
+  .main__about-us__section-2 > div:nth-of-type(1) > h1 {
+    text-align: center;
+  }
+
+  .main__about-us__section-2 > div:nth-of-type(2) {
+    width: 82%;
+  }
+
+  .main__about-us__section-2 > div:nth-of-type(2) > iframe {
+    width: 100%;
+    height: 320px;
+  }
+
+  .main__about-us__section-3 > h2 {
+    margin-left: 80px;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) {
+    padding: 0 80px;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(1) > div {
+    white-space: nowrap;
+    padding: 0 20px;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) > div {
+    white-space: nowrap;
+    padding: 0 20px;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) {
+    margin-left: initial;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(3) {
+    margin-left: initial;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(4) {
+    margin-left: initial;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) {
+    margin-left: initial;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) {
+    margin-left: initial;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(4) {
+    margin-left: initial;
+  }
+
+  .main__about-us__section-3 {
+    width: 100%;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .main__about-us__section-3 > p:nth-of-type(1) {
+    padding: 0 80px;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) {
+    margin-top: 55px;
+  }
+
+}
+
+@media (max-width: 1090px){
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(1) > div {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) > div {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section {
+    height: 150px;
+  }
+
+  .main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) {
+    margin-top: 0px;
+  }
+
+}
+
+@media (max-width: 690px){
+  .main__about-us__section-3 {
+    display: none;
+  }
+}
+
+
+@media (max-width: 630px){
+  .main__about-us__section-2 > div:nth-of-type(1) > h1 {
+    margin-top: 22px;
+    font: 17px / 30px "Montserrat Bold";
+  }
+
+  .main__about-us__section-1 {
+    margin-top: 50px;
+    font: 35px / 50px "Montserrat Bold";
+  }
+
+}
+
+
+@media (max-width: 490px){
+
+  .main__about-us__section-2 > div:nth-of-type(2) > iframe {
+    display: none;
+  }
+
+  .main__about-us__section-1 {
+    margin-top: 34px;
+    font: 24px / 52px "Montserrat Bold";
+    text-indent: -20px;
+  }
+
+  .main__about-us__section-2 > div:nth-child(1) {
+    padding: 0 16px;
+  }
+
+  .main__about-us__section-2 > div:nth-of-type(1) > h1 {
+    margin-top: 3px;
+    font: 14px / 30px "Montserrat Bold";
+  }
+
+  .main__about-us__section-2 > div:nth-of-type(1) > p {
+    font: 12px / 18px "Montserrat";
+  }
+
+  .main__about-us__section-2 > div:nth-of-type(1) > p:nth-of-type(1) {
+    margin-top: 6px;
+  }
+
+  .main__about-us__section-2 > div:nth-of-type(1) > p:nth-of-type(2) {
+    margin-top: 16px;
+  }
+
+  .main__about-us__section-2 > div:nth-of-type(1) > p:nth-of-type(3) {
+    margin-top: 19px;
+  }
+
+  .main__about-us {
+    padding-bottom: 6px;
+  }
+
+
+}

@@ -1,0 +1,70 @@
+@media (max-width: 1340px){
+  .header__nav-menu__wrapper {
+    justify-content: space-around;
+  }
+
+  .header__nav-menu__wrapper > section:nth-of-type(1) {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1240px){
+  .header__nav-menu__wrapper > section:nth-of-type(1) {
+    display: none;
+  }
+
+  .header__nav-menu__wrapper > section:nth-of-type(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 905px){
+  .header__nav-menu__wrapper > section:nth-of-type(3) {
+    display: none;
+  }
+  .header__nav-menu__wrapper > section:nth-of-type(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 700px){
+  .header__nav-menu__wrapper > section:nth-of-type(5) {
+    display: none;
+  }
+
+  .header__nav-menu__wrapper > section:nth-of-type(6) {
+    display: none;
+  }
+}
+
+@media (max-width: 625px){
+  .header__nav-menu__wrapper > section:nth-of-type(7) {
+    display: none;
+  }
+  .header__nav-menu__wrapper > section:nth-of-type(8) {
+    display: none;
+  }
+  .header__nav-menu__wrapper > section:nth-of-type(9) {
+    display: none;
+  }
+
+  .header__nav-menu__wrapper > section:nth-of-type(10) {
+    display: block;
+  }
+
+  .header__nav-menu {
+    height: 50px;
+  }
+
+  .header__nav-menu div > section {
+    padding-top: 5px;
+    padding-left: 41px;
+    font: 14px / 40px "Montserrat Bold";
+    background: url(../../../../images/main-page/burger-menu.png) 10px 18px / auto auto no-repeat;
+  }
+
+  .header__nav-menu div > section:hover {
+    background: url(../../../../images/main-page/burger-menu.png) 10px 18px / auto auto no-repeat;;
+  }
+
+}

@@ -1,0 +1,83 @@
+.main__reviews {
+  width: 100%;
+  height: 675px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+.main__reviews > h1 {
+  margin-top: 95px;
+  font: 48px / 26px "Montserrat Bold";
+}
+
+.owl-carousel-2 {
+  height: 298px;
+  width: 1108px;
+  margin-top: 32px;
+  margin-right: 40px;
+}
+
+.owl-carousel-2 .owl-item > div:nth-of-type(1) {
+  height: 212px;
+  padding: 45px 40px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(207, 207, 207, 0.5);
+}
+
+.owl-carousel-2 > .owl-stage-outer {
+  padding: 20px;
+  width: 100%;
+}
+
+.owl-carousel-2 .owl-prev {
+  position: absolute;
+  top: 151px;
+  left: -52px;
+}
+
+.owl-carousel-2 .owl-next {
+  position: absolute;
+  top: 152px;
+  right: -92px;
+}
+
+.main__single-review > section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__single-review > section:nth-of-type(1) > p {
+  font: 16px / 26px "Montserrat Bold";
+  color: #347ab6;
+}
+
+.main__single-review > section:nth-of-type(1) > time {
+  font: 16px / 26px "Montserrat";
+  color: #3478b9;
+}
+
+.main__single-review > section:nth-of-type(2) > p {
+  font: 14px / 24px "Montserrat";
+  margin-top: 16px;
+}
+
+.main__reviews > button {
+  font: 14px / 20px "Montserrat Bold";
+  border: 1px solid transparent;
+  border-image: linear-gradient(90deg, rgba(72,141,198,1) 0%, rgba(110,80,170,1) 100%);;
+  border-image-slice: 1;
+  margin-top: 74px;
+  width: 280px;
+  height: 60px;
+  background: #fff;
+  color: #337ab7;
+  cursor: pointer;
+}
+
+.main__reviews > button:hover {
+  box-shadow: 0px 0px 20px 0px rgba(90, 112, 185, 0.5);
+  background: linear-gradient(90deg, rgba(72,141,198,1) 0%, rgba(110,80,170,1) 100%);
+  color: #fff;
+}

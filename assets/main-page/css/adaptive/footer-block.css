@@ -1,0 +1,367 @@
+@media (max-width: 1513px) {
+  .footer__facebook-logo, .footer__insta-logo {
+    margin: 37px 0px 0px 25px;
+  }
+
+  .footer__vk-logo {
+    margin: 37px 0px 0px 21px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .footer__facebook-logo, .footer__insta-logo {
+    margin: 37px 0px 0px 22px;
+  }
+
+  .footer__vk-logo {
+    margin: 37px 0px 0px 17px;
+  }
+
+}
+
+@media (max-width: 1301px) {
+  .footer__column_1 {
+    padding: 0px 0px 0px 75px;
+  }
+
+  .footer__column_2 {
+    margin: 0px 0px 0px 80px;
+  }
+
+  .footer__column_3 {
+    margin: 0px 0px 0px 75px;
+  }
+
+  .footer__column_4 {
+    margin: 0px 0px 79px 40px;
+  }
+
+  .footer__tel-numbers {
+    margin: 5px 0px 0px 10px;
+  }
+
+  .footer__facebook-logo, .footer__insta-logo {
+    margin: 37px 0px 0px 16px;
+  }
+
+  .footer__vk-logo {
+    margin: 37px 0px 0px 10px;
+  }
+
+}
+
+@media (max-width: 1081px) {
+  .footer__block {
+    height: 588px;
+  }
+
+  .footer__column_3 {
+    display: none;
+  }
+
+  .footer__contacts {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .footer__feedback {
+    flex-flow: column;
+  }
+
+  .footer__messengers-logos {
+    order: 1;
+  }
+
+  .footer__messenger-tel {
+    order: 2;
+  }
+
+  .footer__tel-numbers {
+    order: 3;
+  }
+
+  .footer__copyright-block {
+    order: 5;
+  }
+
+  .footer__numbers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .footer__logos {
+    width: 320px;
+    margin: 25px 0px 0px 0px;
+    order: 4;
+  }
+
+  .footer__insta-logo_block {
+    width: 33.333%;
+    height: 49px;
+    border-left: 1.5px solid #5e5e5e;
+    border-right: 1.5px solid #5e5e5e;
+    border-bottom: 1.5px solid #5e5e5e;
+    border-top: 1.5px solid #5e5e5e;
+  }
+
+  .footer__vk-logo_block {
+    width: 33.333%;
+    height: 49px;
+    border-left: 1.5px solid #5e5e5e;
+    border-bottom: 1.5px solid #5e5e5e;
+    border-top: 1.5px solid #5e5e5e;
+  }
+
+  .footer__facebook-logo_block {
+    width: 33.333%;
+    height: 49px;
+    border-bottom: 1.5px solid #5e5e5e;
+    border-top: 1.5px solid #5e5e5e;
+    border-left: 1.5px solid #5e5e5e;
+  }
+
+  .footer__vk-logo {
+    width: auto;
+    height: 15px;
+    margin: 16px 0px 0px 42px;
+  }
+
+  .footer__facebook-logo, .footer__insta-logo {
+    width: auto;
+    height: 16px;
+    margin: 15px 0px 0px 45px;
+  }
+
+  .footer__copyright-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__copyright-text {
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 24px 0px 0px 7px;
+  }
+
+  .footer__viber-logo {
+    margin: 0px 0px 0px 10px;
+  }
+
+  .footer__messenger-tel {
+    margin: 5px 0px 0px 10px;
+  }
+
+  .footer__tel-numbers {
+    margin: 11px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 901px) {
+
+  .footer__number_1 {
+    margin: 0px 0px 3px 20px;
+  }
+
+  .footer__viber-logo {
+    margin: 0px 0px 0px 40px;
+  }
+
+  .footer__logos {
+    width: 320px;
+    margin: 25px 0px 0px 0px;
+  }
+
+  .footer__vk-logo {
+    width: auto;
+    height: 15px;
+    margin: 16px 0px 0px 42px;
+  }
+
+  .footer__facebook-logo, .footer__insta-logo {
+    width: auto;
+    height: 16px;
+    margin: 15px 0px 0px 45px;
+  }
+
+  .footer__copyright-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__copyright-text {
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 24px 0px 0px 7px;
+  }
+
+}
+
+@media (max-width: 680px) {
+
+  .footer__block {
+    height: 256px;
+  }
+
+  .footer__navigation {
+    display: none;
+  }
+
+  .footer__contacts {
+    flex-direction: column;
+  }
+
+  .footer__numbers {
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .footer__viber-logo {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footer__tel-numbers {
+    margin: 16px 19px 0px 0px;
+  }
+
+  .footer__logos {
+    width: 320px;
+    margin: 25px 0px 0px 0px;
+  }
+
+  .footer__insta-logo_block {
+    width: 33.333%;
+    height: 49px;
+    border-left: 1.5px solid #5e5e5e;
+    border-right: 1.5px solid #5e5e5e;
+    border-bottom: 1.5px solid #5e5e5e;
+    border-top: 1.5px solid #5e5e5e;
+  }
+
+  .footer__vk-logo {
+    width: auto;
+    height: 15px;
+    margin: 16px 0px 0px 42px;
+  }
+
+  .footer__facebook-logo, .footer__insta-logo {
+    width: auto;
+    height: 16px;
+    margin: 15px 0px 0px 45px;
+  }
+
+  .footer__copyright-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__copyright-text {
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 24px 0px 0px 7px;
+  }
+
+
+}
+
+@media (max-width: 321px) {
+
+  .footer__block {
+    height: 256px;
+  }
+
+  .footer__navigation {
+    display: none;
+  }
+
+  .footer__contacts {
+    flex-direction: column;
+  }
+
+  .footer__numbers {
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .footer__viber-logo {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footer__tel-numbers {
+    margin: 16px 19px 0px 0px;
+  }
+
+  .footer__logos {
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+  }
+
+
+  .footer__insta-logo_block {
+    width: 33.333%;
+    height: 49px;
+    border-left: 1.5px solid #5e5e5e;
+    border-right: initial;
+    border-bottom: 1.5px solid #5e5e5e;
+    border-top: 1.5px solid #5e5e5e;
+  }
+
+  .footer__vk-logo_block {
+    width: 33.333%;
+    height: 49px;
+    border-left: initial;
+    border-bottom: 1.5px solid #5e5e5e;
+    border-top: 1.5px solid #5e5e5e;
+  }
+
+  .footer__facebook-logo_block {
+    width: 33.333%;
+    height: 49px;
+    border-bottom: 1.5px solid #5e5e5e;
+    border-top: 1.5px solid #5e5e5e;
+    border-left: 1.5px solid #5e5e5e;
+  }
+
+  .footer__vk-logo {
+    width: auto;
+    height: 15px;
+    margin: 16px 0px 0px 42px;
+  }
+
+  .footer__facebook-logo, .footer__insta-logo {
+    width: auto;
+    height: 16px;
+    margin: 15px 0px 0px 45px;
+  }
+
+  .footer__copyright-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__copyright-text {
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 24px 0px 0px 7px;
+  }
+
+
+}

@@ -1,0 +1,109 @@
+.main__about-us {
+  width: 100%;
+  height: 985px;
+  background: #f7f7f7;
+}
+
+.main__about-us__wrapper {
+  width: 100%;
+  max-width: 1109px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__about-us__section-1 {
+  margin-top: 83px;
+  font: 48px / 50px "Montserrat Bold";
+  align-self: center;
+}
+
+.main__about-us__section-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main__about-us__section-2 > div:nth-of-type(2) {
+  margin-top: 42px;
+}
+
+.main__about-us__section-2 > div:nth-of-type(2) > iframe {
+  width: 490px;
+  height: 320px;
+}
+
+.main__about-us__section-2 > div:nth-of-type(1) > h1 {
+  margin-top: 38px;
+  font: 24px / 30px "Montserrat Bold";
+}
+
+.main__about-us__section-2 > div:nth-of-type(1) > p {
+  margin-top: 17px;
+  font: 14px / 23px "Montserrat";
+}
+
+/* -------------------------------------------------------- */
+
+.main__about-us__section-3 > div:nth-of-type(1) {
+  margin-top: 46px;
+}
+
+.main__about-us__section-3 > h2  {
+  font: 24px / 23px "Montserrat Bold";
+  margin-top: 43px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section > div {
+  display: flex;
+  font: 14px / 20px "Montserrat";
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) {
+  margin-left: 125px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(3) {
+  margin-left: 64px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(4) {
+  margin-left: 92px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) {
+  margin-left: 130px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) {
+  margin-left: 145px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(4) {
+  margin-left: 110px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section {
+  display: flex;
+  width: 100%
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section:nth-of-type(2) {
+  margin-top: 50px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section > div > img {
+  width: 40px;
+  height: 40px;
+}
+
+.main__about-us__section-3 > div:nth-of-type(1) > section > div > p {
+  margin-left: 20px;
+}
+
+.main__about-us__section-3 > p:nth-of-type(1) {
+  margin-top: 45px;
+  font: 14px / 22px "Montserrat";
+}

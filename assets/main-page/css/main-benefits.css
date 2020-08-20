@@ -1,0 +1,122 @@
+.main__upper-benefits {
+  height: 360px;
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.main__upper-benefits__wrapper {
+  display: flex;
+  height: calc(100% - 130px);
+  width: 100%;
+  max-width: 1018px;
+  padding-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__upper-benefits__wrapper > section > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.main__upper-benefits__wrapper > section:nth-child(1) {
+  margin-left: 18px;
+}
+
+.main__upper-benefits__wrapper > section:nth-child(2) {
+  margin-left: 97px;
+}
+
+.main__upper-benefits__wrapper > section:nth-child(3) {
+  margin-left: 115px;
+}
+
+.main__upper-benefits__wrapper > section:nth-child(4) {
+  margin-left: 122px;
+}
+
+.main__upper-benefits__wrapper > section:nth-child(5) {
+  margin-left: 74px;
+}
+
+.main__upper-benefits__wrapper > section > a > p {
+  margin-top: 14px;
+  text-align: center;
+  font: 17px / 24px "Montserrat Bold";
+}
+
+.main__lower-benefits {
+  width: 100%;
+  height: 930px;
+}
+
+.main__lower-benefits__wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1174px;
+  margin-top: -72px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.main__lower-benefits__wrapper > section {
+  width: 352px;
+  height: 423px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 47px 54px;
+  margin-left: 29px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(207, 207, 207, 0.5);
+  background: #fff;
+  white-space: nowrap;
+}
+
+.main__lower-benefits__wrapper > section > h2 {
+  font: 24px / 27px "Montserrat Bold";
+}
+
+.main__lower-benefits__wrapper > section > p {
+  font: 15px / 22px "Montserrat";
+  margin-top: 11px;
+}
+
+.main__lower-benefits__wrapper > section:nth-of-type(1) {
+  background: url(../../../images/main-page/discount_bg_1.png) top left / auto no-repeat;
+}
+
+.main__lower-benefits__wrapper > section:nth-of-type(2) {
+  background: url(../../../images/main-page/discount_bg_2.png) top left / auto no-repeat;
+}
+
+.main__lower-benefits__wrapper > section:nth-of-type(3) {
+  background: url(../../../images/main-page/discount_bg_3.png) top left / auto no-repeat;
+}
+
+.main__lower-benefits__wrapper > section:nth-of-type(4) {
+  background: url(../../../images/main-page/discount_bg_4.png) top left / auto no-repeat;
+}
+
+.main__lower-benefits__wrapper > section:nth-of-type(5) {
+  background: url(../../../images/main-page/discount_bg_5.png) top left / auto no-repeat;
+}
+
+.main__lower-benefits__wrapper > section:nth-of-type(6) {
+  background: url(../../../images/main-page/discount_bg_6.png) top left / auto no-repeat;
+}
+
+.main__lower-benefits__wrapper > section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(72,141,198,1) 0%, rgba(110,80,170,1) 100%);
+}

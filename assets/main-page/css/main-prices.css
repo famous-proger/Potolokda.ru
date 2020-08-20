@@ -1,0 +1,120 @@
+.main__prices {
+  width: 100%;
+  height: 1540px;
+}
+
+.main__prices > h1 {
+  text-align: center;
+  font: 48px / 65px "Montserrat Bold";
+  padding-top: 22px;
+}
+
+.main__prices__wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1111px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+}
+
+.main__prices__wrapper > section {
+  width: 350px;
+  height: 430px;
+  position: relative;
+  margin-bottom: 25px;
+  background: white;
+}
+
+.main__prices__section > div:nth-of-type(1) {
+  width: 100%;
+  height: 280px;
+}
+
+.main__prices__section > h3 {
+  font: 18px / 20px "Montserrat Bold";
+  white-space: nowrap;
+  margin-top: 26px;
+  text-align: center;
+}
+
+.main__prices__section > button {
+  font: 14px / 20px "Montserrat Bold";
+  margin: 19px 10px 10px 36px;
+  padding: 19px 40px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(90deg, rgba(72,141,198,1) 0%, rgba(110,80,170,1) 100%);
+  border-image-slice: 1;
+  background: #fff;
+  cursor: pointer;
+}
+
+.main__prices__section > button:hover {
+  box-shadow: 0px 0px 20px 0px rgba(90, 112, 185, 0.5);
+  background: linear-gradient(90deg, rgba(72,141,198,1) 0%, rgba(110,80,170,1) 100%);
+  color: #fff;
+}
+
+.main__prices__section > div:nth-of-type(1) > div:nth-of-type(1) {
+  height: 80px;
+  width: 127px;
+  top: 10px;
+  right: 0;
+  padding: 16px 21px;
+  box-sizing: border-box;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(72,141,198,1) 0%, rgba(110,80,170,1) 100%);
+}
+
+.main__prices__section > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1){
+  text-decoration: line-through;
+  font: 17px / 20px "Montserrat";
+  white-space: nowrap;
+  color: white;
+}
+
+.main__prices__section > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2){
+  font: 19px / 30px "Montserrat Bold";
+  white-space: nowrap;
+  color: white;
+}
+
+.main__prices__section-1 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_1.png) center center / auto auto no-repeat;
+}
+
+.main__prices__section-2 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_2.png) center center / auto auto no-repeat;
+}
+
+.main__prices__section-3 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_3.png) center center / auto auto no-repeat;
+}
+
+.main__prices__section-4 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_4.png) center center / auto auto no-repeat;
+}
+
+.main__prices__section-5 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_5.png) center center / auto auto no-repeat;
+}
+
+.main__prices__section-6 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_6.png) center center / auto auto no-repeat;
+}
+
+.main__prices__section-7 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_7.png) center center / auto auto no-repeat;
+}
+
+.main__prices__section-8 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_8.png) center center / auto auto no-repeat;
+}
+
+.main__prices__section-9 > div:nth-of-type(1) {
+  background: url(../../../images/main-page/example_bg_9.png) center center / auto auto no-repeat;
+}

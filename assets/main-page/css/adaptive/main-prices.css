@@ -1,0 +1,175 @@
+@media (max-width: 1170px) {
+  .main__prices {
+    height: initial;
+    min-height: 340px;
+  }
+
+  .main__prices__wrapper {
+    width: 90%;
+    justify-content: space-around;
+    column-gap: 30px;
+    row-gap: 80px;
+  }
+
+  .main__prices__wrapper section {
+    width: 350px;
+    height: 430px;
+    position: relative;
+    margin-bottom: 25px;
+    background: white;
+  }
+
+  .main__prices__wrapper .owl-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main__prices__wrapper .owl-next {
+    position: absolute;
+    top: 140px;
+    right: 50px;
+  }
+
+  .main__prices__wrapper .owl-prev {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+  }
+
+}
+
+
+@media (max-width: 580px) {
+  .main__prices__wrapper .owl-stage {
+    padding-left:0px !important;
+  }
+
+  .main__prices > h1 {
+    font: 30px / 65px "Montserrat Bold";
+  }
+
+  .main__prices__section > button {
+    font: 12px / 20px "Montserrat Bold";
+    margin: 19px 10px 10px 75px;
+    padding: 0px 0px;
+    width: 200px;
+    height: 50px;
+  }
+
+  .main__prices__wrapper .owl-next {
+    position: absolute;
+    top: 140px;
+    right: 35px;
+  }
+
+  .main__prices__wrapper .owl-prev {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .main__prices__section > button {
+    margin: 19px 10px 10px 52px;
+  }
+}
+
+@media (max-width: 439px) {
+
+  .main__prices__wrapper .owl-next {
+    right: 11px;
+  }
+
+  .main__prices__wrapper > div:nth-child(2) > button:nth-child(2) > img:nth-child(1) {
+    width: 13px;
+  }
+
+}
+
+
+@media (max-width: 360px) {
+
+  .main__prices__section > div:nth-of-type(1) {
+    height: 233px;
+  }
+
+  .main__prices__section-1 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_1.png) bottom left / 100% 100% no-repeat;
+  }
+  .main__prices__section-2 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_2.png) bottom left / 100% 100% no-repeat;
+  }
+
+  .main__prices__section-3 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_3.png) bottom left / 100% 100% no-repeat;
+  }
+
+  .main__prices__section-4 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_4.png) bottom left / 100% 100% no-repeat;
+  }
+
+  .main__prices__section-5 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_5.png) bottom left / 100% 100% no-repeat;
+  }
+
+  .main__prices__section-6 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_6.png) bottom left / 100% 100% no-repeat;
+  }
+
+  .main__prices__section-7 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_7.png) bottom left / 100% 100% no-repeat;
+  }
+
+  .main__prices__section-8 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_8.png) bottom left / 100% 100% no-repeat;
+  }
+
+  .main__prices__section-9 > div:nth-of-type(1) {
+    background: url(../../../../images/main-page/example_bg_9.png) bottom left / 100% 100% no-repeat;
+  }
+
+  .main__prices > h1 {
+    font: 24px / 33px "Montserrat Bold";
+    padding-top: 0px;
+    text-indent: -29px;
+  }
+
+  .main__prices__wrapper {
+    margin-left: 5px;
+    margin-top: -7px;
+  }
+
+  .main__prices__section > h3 {
+    font: 13px / 20px "Montserrat Bold";
+    margin-top: -1px;
+    text-indent: 56px;
+  }
+
+  .main__prices__wrapper section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+
+  .main__prices__section > div:nth-of-type(1) > div:nth-of-type(1) {
+    height: 57px;
+    width: 79px;
+    top: 33px;
+    right: 14px;
+    padding: 16px 15px;
+  }
+
+  .main__prices__section > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) {
+    font: 11px / 9px "Montserrat";
+  }
+
+  .main__prices__section > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2) {
+    font: 14px / 21px "Montserrat Bold";
+  }
+
+  .main__prices__wrapper .owl-next {
+    top: 100px;
+  }
+
+
+}

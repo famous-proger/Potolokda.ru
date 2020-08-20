@@ -1,0 +1,49 @@
+.main__map {
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+
+.main__map > iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.main__map > div:nth-of-type(1) {
+  height: 320px;
+  width: 320px;
+  padding-top: 50px;
+  padding-left: 48px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50px;
+  left: 21.2vw;
+  box-shadow: 0px 0px 20px 0px rgba(207, 207, 207, 0.5);
+  background: #fff;
+}
+
+.main__map__section_1 > h4,
+.main__map__section_2 > h4,
+.main__map__section_3 > h4 {
+  font: 14px / 24px "Montserrat Bold";
+  color: #337ab7;
+}
+
+.main__map__section_1 > p,
+.main__map__section_2 > p,
+.main__map__section_3 > p {
+  font: 12px / 22px "Montserrat";
+}
+
+
+.main__map__section_1 > p {
+  margin-top: -3px;
+}
+
+.main__map__section_2 > h4 {
+  margin-top: 22px;
+}
+
+.main__map__section_3 > h4 {
+  margin-top: 20px;
+}

@@ -1,0 +1,149 @@
+@media (max-width: 1190px){
+
+
+  .main__application-block__form > section:nth-of-type(3) {
+    width: initial;
+    margin-left: initial;
+  }
+
+  .main__application-block__form {
+    width: initial;
+    padding: 20px 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 1112px;
+  }
+
+  .main__application-block__form > section:nth-of-type(4) {
+    margin-right: 50px;
+  }
+
+}
+
+@media (max-width: 1095px){
+
+  .main__application-block__form > section:nth-of-type(1) > p {
+    font: 20px / 51px "Montserrat";
+  }
+
+  .main__application-block__form > section:nth-of-type(2) > p {
+    font: 16px / 34px "Montserrat";
+  }
+
+  .main__application-block__form > section:nth-of-type(4) {
+    margin-right: initial;
+  }
+
+}
+
+@media (max-width: 1095px){
+
+  .main__application-block__form > section:nth-of-type(3) {
+    flex-direction: column;
+  }
+
+  .main__application-block__form {
+    height: initial;
+    min-height: 330px;
+  }
+
+  .main__application-block {
+    height: initial;
+    padding-bottom: 80px;
+  }
+
+  .main__application-block__form > section:nth-of-type(3) {
+    row-gap: 30px;
+    align-items: center;
+  }
+
+  .main__application-block__form {
+    width: 430px;
+  }
+
+  .main__application-block__form {
+    padding-bottom: 50px;
+  }
+
+  .main__application-block__form > section:nth-of-type(4) {
+    align-self: center;
+    margin-top: 35px;
+  }
+
+}
+
+
+@media (max-width: 730px){
+  .main__prices__wrapper section {
+    height: 320px;
+  }
+
+  .main__application-block > h1:nth-of-type(1) {
+    font: 40px / 60px "Montserrat Bold";
+  }
+
+  .main__application-block__form > section:nth-of-type(2) > p {
+    font: 16px / 23px "Montserrat";
+  }
+}
+
+@media (max-width: 460px){
+  .main__application-block__form {
+    width: 290px;
+    height: 420px;
+    padding: 20px 20px;
+  }
+
+  .main__application-block__form > section:nth-of-type(1) > p {
+    font: 18px / 21px "Montserrat";
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .main__application-block__form > section:nth-of-type(2) > p {
+    margin-top: 20px;
+    font: 13px / 18px "Montserrat";
+  }
+
+  .main__application-block__form > section:nth-of-type(3) {
+    row-gap: 0px;
+    margin-top: 0px;
+  }
+
+  .main__input-wrapper_1 > input {
+    width: 225px;
+    margin-right: 0px;
+  }
+
+  .main__application-block__form > section:nth-of-type(4) {
+    width: 260px;
+    margin-top: 20px;
+  }
+
+  .main__application-block__form > section:nth-of-type(3) > button {
+    height: 45px;
+    width: 210px;
+  }
+
+
+
+  /* 295 420 */
+}
+
+@media (max-width: 350px){
+
+  .main__application-block > h1:nth-of-type(1) {
+    margin-top: 21px;
+    font: 24px / 32px "Montserrat Bold";
+  }
+
+  .main__application-block__form {
+    margin-top: 24px;
+  }
+
+  .main__application-block {
+    padding-bottom: 30px;
+  }
+
+
+}

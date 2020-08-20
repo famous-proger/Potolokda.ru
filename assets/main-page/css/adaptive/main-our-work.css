@@ -1,0 +1,163 @@
+@media (max-width: 1300px){
+  .owl-carousel-1 {
+    height: initial;
+    width: 725px;
+  }
+
+  .main__our-work {
+    height: initial;
+    min-height: 300px;
+    padding-bottom: 50px;
+  }
+
+  .owl-carousel-1 .owl-item img {
+    width: 100%;
+    height: 260px;
+  }
+
+  .owl-carousel-1 > div > div > div > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
+
+
+@media (max-width: 909px){
+
+  .owl-carousel-1 > div > div > div > div {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .owl-carousel-1 .owl-prev {
+    top: 110px;
+    left: 25px;
+  }
+
+  .owl-carousel-1 .owl-next {
+    top: 110px;
+    right: 25px;
+  }
+
+  .owl-carousel-1 .owl-item > div > p {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 730px){
+
+
+  .owl-carousel-1 {
+    width: 90vw;
+  }
+
+
+}
+
+@media (max-width: 580px){
+
+  .owl-carousel-1 > div > div > div > div {
+    width: 100%;
+  }
+
+  .owl-carousel-1 {
+    height: initial;
+    width: 80vw;
+  }
+
+
+  .owl-carousel-1 .owl-prev {
+    left: -40px;
+  }
+
+  .owl-carousel-1 .owl-next {
+    right: -40px;
+  }
+
+  .main__our-work > h1 {
+    font: 24px / 23px "Montserrat Bold";
+  }
+
+
+}
+
+@media (max-width: 490px){
+
+  .owl-carousel-1 .owl-stage {
+    padding-left:0px !important;
+  }
+
+  .owl-carousel-1 {
+    align-self: flex-start;
+    margin-left: 30px;
+  }
+
+  .owl-carousel-1 .owl-item img {
+    height: 190px;
+  }
+
+  .owl-carousel-1 {
+    height: initial;
+    width: 95vw;
+    margin-left: 5vw;
+  }
+
+  .owl-carousel-1 .owl-prev {
+    display: none;
+  }
+
+  .owl-carousel-1 .owl-next {
+    right: 35px;
+    top: 75px;
+  }
+
+
+}
+
+@media (max-width: 380px){
+
+  .owl-carousel-1 .owl-next {
+    right: 27px;
+    top: 84px;
+  }
+
+  .owl-carousel-1 > div:nth-child(2) > button:nth-child(2) > img:nth-child(1) {
+    width: 11px;
+  }
+
+}
+
+
+@media (max-width: 330px){
+
+  .owl-carousel-1 .owl-item img {
+    height: 190px;
+  }
+
+  .owl-carousel-1 {
+    height: initial;
+    width: 95vw;
+    margin-left: 5vw;
+    margin-top: 28px;
+  }
+
+  .main__our-work > h1 {
+    margin-top: 30px;
+  }
+
+  .owl-carousel-1 .owl-item > div > p {
+    font: 12px / 17px "Montserrat";
+    padding-left: 0px;
+    padding-top: 14px;
+  }
+
+
+
+
+
+
+}
